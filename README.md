@@ -66,7 +66,7 @@ to conventional model training.
   full-bundle audits.
 
 <p align="center">
-  <img src="assets/pipeline.svg" alt="Candidate discovery and validation pipeline" width="100%">
+  <img src="assets/pipeline.svg?v=4" alt="Candidate discovery and validation pipeline" width="100%">
 </p>
 
 ## Why validation was the hard part

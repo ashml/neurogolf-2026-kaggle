@@ -14,11 +14,11 @@
     <g transform="translate(740 92)"><rect width="190" height="116" rx="18" fill="#10283a" stroke="#51b3d1" stroke-width="2"/><text x="95" y="50" fill="#fff" font-size="20" font-weight="600">MEASURE</text><text x="95" y="80" fill="#91b9c7" font-size="15">memory + params</text></g>
     <g transform="translate(975 92)"><rect width="190" height="116" rx="18" fill="#142f47" stroke="#60a5fa" stroke-width="2"/><text x="95" y="50" fill="#fff" font-size="20" font-weight="600">PROMOTE</text><text x="95" y="80" fill="#91b9c7" font-size="15">hash + ZIP audit</text></g>
   </g>
-  <g stroke="url(#line)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M238 150h19m-7-7 8 7-8 7"/>
-    <path d="M473 150h19m-7-7 8 7-8 7"/>
-    <path d="M708 150h19m-7-7 8 7-8 7"/>
-    <path d="M943 150h19m-7-7 8 7-8 7"/>
+  <g fill="#0b1728" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(247.5 150)"><circle r="14"/><path d="M-6 0H7M2-5l5 5-5 5" fill="none"/></g>
+    <g transform="translate(482.5 150)"><circle r="14"/><path d="M-6 0H7M2-5l5 5-5 5" fill="none"/></g>
+    <g transform="translate(717.5 150)"><circle r="14"/><path d="M-6 0H7M2-5l5 5-5 5" fill="none"/></g>
+    <g transform="translate(952.5 150)"><circle r="14"/><path d="M-6 0H7M2-5l5 5-5 5" fill="none"/></g>
   </g>
   <text x="600" y="270" fill="#718fa2" font-family="Segoe UI,Arial,sans-serif" font-size="15" text-anchor="middle">A failed gate returns the candidate to the experiment log, never to the accepted baseline.</text>
 </svg>
