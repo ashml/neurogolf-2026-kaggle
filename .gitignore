@@ -1,0 +1,64 @@
+# Local competition data and submissions (not redistributable)
+neurogolf-2026/
+arc_gen_official/
+*.onnx
+*.zip
+
+# Raw research workspace
+.agents/
+Claude/
+all_public/
+best_public/
+best_scores/
+chunk_submissions/
+current_best_*/
+dead_graph_candidates/
+family_candidates/
+kaggle_notebooks/
+last_chance/
+last_submission*/
+last_top_*/
+low15_replacement_search/
+medal_*/
+mined_local_conv_candidates/
+new_approach_experiments/
+onnx/
+research_kaggle/
+rewire_miner_probe*/
+semantic_candidates/
+sparse_lossless_candidates/
+submission_shrink/
+targeted_onnxsim_candidates/
+task*_candidates/
+task_graph_rewrite_candidates/
+task_manual_candidates/
+task_onnxsim_candidates/
+task_ort_candidates/
+test/
+to_submit/
+_*/
+
+# Root-level experiment artifacts; curated material lives under src/, docs/, etc.
+/*.py
+/*.csv
+/*.json
+/*.html
+/*.txt
+/five_target_analysis.md
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

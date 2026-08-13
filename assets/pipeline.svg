@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title">
+  <title id="title">Correctness-first model optimization pipeline</title>
+  <defs><linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2dd4bf"/><stop offset="1" stop-color="#60a5fa"/></linearGradient></defs>
+  <rect width="1200" height="290" rx="24" fill="#0b1728"/>
+  <g stroke="url(#line)" stroke-width="5" fill="none"><path d="M190 138h68M408 138h68M626 138h68M844 138h68"/><path d="m248 128 12 10-12 10M466 128l12 10-12 10M684 128l12 10-12 10M902 128l12 10-12 10"/></g>
+  <g font-family="Segoe UI,Arial" text-anchor="middle">
+    <g transform="translate(40 82)"><rect width="150" height="112" rx="18" fill="#10283a" stroke="#2dd4bf" stroke-width="2"/><text x="75" y="48" fill="#fff" font-size="20" font-weight="600">INFER</text><text x="75" y="77" fill="#91b9c7" font-size="15">semantic rule</text></g>
+    <g transform="translate(258 82)"><rect width="150" height="112" rx="18" fill="#10283a" stroke="#36c9c6" stroke-width="2"/><text x="75" y="48" fill="#fff" font-size="20" font-weight="600">COMPILE</text><text x="75" y="77" fill="#91b9c7" font-size="15">ONNX candidate</text></g>
+    <g transform="translate(476 82)"><rect width="150" height="112" rx="18" fill="#10283a" stroke="#43bfc9" stroke-width="2"/><text x="75" y="48" fill="#fff" font-size="20" font-weight="600">FALSIFY</text><text x="75" y="77" fill="#91b9c7" font-size="15">counterexamples</text></g>
+    <g transform="translate(694 82)"><rect width="150" height="112" rx="18" fill="#10283a" stroke="#51b3d1" stroke-width="2"/><text x="75" y="48" fill="#fff" font-size="20" font-weight="600">MEASURE</text><text x="75" y="77" fill="#91b9c7" font-size="15">memory + params</text></g>
+    <g transform="translate(912 82)"><rect width="248" height="112" rx="18" fill="#142f47" stroke="#60a5fa" stroke-width="2"/><text x="124" y="48" fill="#fff" font-size="20" font-weight="600">PROMOTE</text><text x="124" y="77" fill="#91b9c7" font-size="15">hash + full bundle audit</text></g>
+    <text x="600" y="42" fill="#8fd9e2" font-size="17" letter-spacing="3">CORRECTNESS FIRST · COST SECOND</text>
+    <text x="600" y="248" fill="#718fa2" font-size="15">Any failed gate returns the candidate to the experiment log—not the accepted baseline.</text>
+  </g>
+</svg>
