@@ -1,8 +1,9 @@
 import json
 
 import onnx
-from neurogolf.validation import compare_runtime_modes
 from onnx import TensorProto, helper
+
+from neurogolf.validation import compare_runtime_modes
 
 
 def test_identity_model_passes_exact_validation(tmp_path) -> None:

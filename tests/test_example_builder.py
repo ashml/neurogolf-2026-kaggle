@@ -2,6 +2,7 @@ import importlib.util
 from pathlib import Path
 
 import onnx
+
 from neurogolf.scoring import count_parameters, validate_structure
 
 

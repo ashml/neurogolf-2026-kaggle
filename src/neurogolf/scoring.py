@@ -12,7 +12,6 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 
 import numpy as np
-
 import onnx
 
 FILE_SIZE_LIMIT = int(1.44 * 1024 * 1024)
