@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">NeuroGolf task points by graph cost</title>
+  <desc id="desc">A logarithmic cost axis shows points falling according to 25 minus natural log of cost</desc>
+  <rect width="900" height="360" rx="24" fill="#0b1728"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="450" y="38" fill="#dff8fa" font-size="21" font-weight="600" text-anchor="middle">WHY EVERY COST REDUCTION MATTERS</text>
+    <text x="450" y="63" fill="#7897a8" font-size="14" text-anchor="middle">points = max(1, 25 − ln(cost)) · logarithmic cost axis</text>
+    <path d="M100 82V280H830" fill="none" stroke="#527085" stroke-width="2"/>
+    <g stroke="#29475b"><path d="M100 82H830M100 148H830M100 214H830M100 280H830"/></g>
+    <g fill="#7897a8" font-size="13" text-anchor="end"><text x="88" y="87">25</text><text x="88" y="153">20</text><text x="88" y="219">15</text><text x="88" y="285">10</text></g>
+    <polyline points="110,82 225,112.4 340,142.8 455,173.2 570,203.6 685,234 800,264.4" fill="none" stroke="#2dd4bf" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#60a5fa" stroke="#dff8fa" stroke-width="2"><circle cx="110" cy="82" r="6"/><circle cx="225" cy="112.4" r="6"/><circle cx="340" cy="142.8" r="6"/><circle cx="455" cy="173.2" r="6"/><circle cx="570" cy="203.6" r="6"/><circle cx="685" cy="234" r="6"/><circle cx="800" cy="264.4" r="6"/></g>
+    <g fill="#7897a8" font-size="12" text-anchor="middle"><text x="110" y="304">1</text><text x="225" y="304">10</text><text x="340" y="304">100</text><text x="455" y="304">1k</text><text x="570" y="304">10k</text><text x="685" y="304">100k</text><text x="800" y="304">1m</text></g>
+    <text x="465" y="335" fill="#91b9c7" font-size="14" text-anchor="middle">graph cost = intermediate memory + parameter count</text>
+  </g>
+</svg>

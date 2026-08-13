@@ -1,6 +1,9 @@
 {
   "competition": "The 2026 NeuroGolf Championship",
+  "baseline_score": 5400.0,
   "final_score": 7356.87,
-  "final_rank": 540,
+  "score_gain": 1956.87,
+  "relative_gain_percent": 36.24,
+  "submission_iterations": 223,
   "tasks": 400
 }

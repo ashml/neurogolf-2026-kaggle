@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" role="img" aria-labelledby="title desc">
+  <title id="title">Score improvement from baseline to final</title>
+  <desc id="desc">Two bars compare the 5400 baseline with the 7356.87 final score</desc>
+  <defs><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#2dd4bf"/><stop offset="1" stop-color="#60a5fa"/></linearGradient></defs>
+  <rect width="900" height="380" rx="24" fill="#0b1728"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="450" y="38" fill="#dff8fa" font-size="21" font-weight="600" text-anchor="middle">SCORE IMPROVEMENT · RECORDED ENDPOINTS</text>
+    <g stroke="#29475b" stroke-width="1"><path d="M105 300H845M105 240H845M105 180H845M105 120H845M105 60H845"/></g>
+    <g fill="#7897a8" font-size="13" text-anchor="end"><text x="92" y="305">0</text><text x="92" y="245">2k</text><text x="92" y="185">4k</text><text x="92" y="125">6k</text><text x="92" y="65">8k</text></g>
+    <rect x="220" y="138" width="180" height="162" rx="10" fill="#1f6f78"/><rect x="505" y="79.3" width="180" height="220.7" rx="10" fill="url(#bar)"/>
+    <g fill="#fff" font-size="25" font-weight="700" text-anchor="middle"><text x="310" y="126">5400</text><text x="595" y="67">7356.87</text></g>
+    <g fill="#a8c5d0" font-size="15" text-anchor="middle"><text x="310" y="330">BASELINE</text><text x="595" y="330">AFTER 223 ITERATIONS</text></g>
+    <path d="M405 126C455 83 480 72 500 72" fill="none" stroke="#fbbf24" stroke-width="3" stroke-dasharray="6 6"/>
+    <text x="454" y="61" fill="#fbbf24" font-size="16" font-weight="600" text-anchor="middle">+1956.87 · +36.24%</text>
+  </g>
+</svg>

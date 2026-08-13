@@ -13,8 +13,9 @@
 # NeuroGolf 2026: correctness-first ONNX optimization
 
 This repository is a cleaned, reproducible portfolio of my work in **The 2026
-NeuroGolf Championship**. I finished with a score of **7356.87** in **540th
-place**.
+NeuroGolf Championship**. Across **223 recorded submission iterations**, the
+score improved from a **5400 baseline to 7356.87**: a gain of **1956.87 points
+(+36.24%)**.
 
 NeuroGolf was unusual for a machine-learning competition. There was no single
 model to train. Each of 400 visual reasoning tasks needed its own ONNX graph:
@@ -22,7 +23,11 @@ the graph had to reproduce an ARC-style transformation exactly, while using as
 little intermediate memory and as few parameters as possible.
 
 <p align="center">
-  <img src="assets/result.svg" alt="Final result: score 7356.87, rank 540, 400 tasks" width="760">
+  <img src="assets/result.svg" alt="Score improved by 1956.87 points across 223 iterations" width="760">
+</p>
+
+<p align="center">
+  <img src="assets/score_gain.svg" alt="Baseline and final score comparison" width="760">
 </p>
 
 ## The problem in one minute
@@ -38,6 +43,10 @@ For each correct task, the final competition objective was:
 cost   = intermediate tensor memory in bytes + parameter count
 points = max(1, 25 - ln(max(1, cost)))
 ```
+
+<p align="center">
+  <img src="assets/scoring_curve.svg" alt="Task points decrease logarithmically as graph cost increases" width="760">
+</p>
 
 Smaller is better, but an incorrect tiny model is worth almost nothing. This
 made the work closer to **program synthesis and compiler optimization** than

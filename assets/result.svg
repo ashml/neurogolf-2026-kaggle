@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-labelledby="title">
-  <title id="title">Competition result</title>
+  <title id="title">Measured score improvement</title>
   <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1728"/><stop offset="1" stop-color="#16354a"/></linearGradient></defs>
   <rect width="900" height="240" rx="24" fill="url(#bg)"/>
   <path d="M300 45v150M600 45v150" stroke="#35576c" stroke-width="2"/>
   <g font-family="Segoe UI,Arial" text-anchor="middle">
-    <text x="150" y="82" fill="#8fd9e2" font-size="18" letter-spacing="3">FINAL SCORE</text><text x="150" y="145" fill="#fff" font-size="49" font-weight="700">7356.87</text>
-    <text x="450" y="82" fill="#8fd9e2" font-size="18" letter-spacing="3">FINAL RANK</text><text x="450" y="145" fill="#fff" font-size="49" font-weight="700">540</text>
-    <text x="750" y="82" fill="#8fd9e2" font-size="18" letter-spacing="3">ONNX TASKS</text><text x="750" y="145" fill="#fff" font-size="49" font-weight="700">400</text>
-    <text x="450" y="205" fill="#60a5fa" font-size="17">The 2026 NeuroGolf Championship</text>
+    <text x="150" y="82" fill="#8fd9e2" font-size="18" letter-spacing="3">SCORE GAIN</text><text x="150" y="145" fill="#fff" font-size="46" font-weight="700">+1956.87</text>
+    <text x="450" y="82" fill="#8fd9e2" font-size="18" letter-spacing="3">IMPROVEMENT</text><text x="450" y="145" fill="#fff" font-size="49" font-weight="700">+36.24%</text>
+    <text x="750" y="82" fill="#8fd9e2" font-size="18" letter-spacing="3">ITERATIONS</text><text x="750" y="145" fill="#fff" font-size="49" font-weight="700">223</text>
+    <text x="450" y="205" fill="#60a5fa" font-size="17">5400 baseline → 7356.87 final score</text>
   </g>
 </svg>

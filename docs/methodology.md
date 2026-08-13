@@ -106,8 +106,9 @@ Local cost improvements do not help when the candidate fails unseen cases.
 This is why the final project emphasizes the validation system more than a
 catalogue of isolated graph tricks.
 
-## Result
+## Measured improvement
 
-The final competition result was **7356.87 points and 540th place**. The durable
-outcome was a disciplined optimization loop: hypothesize, compile, falsify,
-measure and only then promote.
+Across **223 recorded submission iterations**, the score moved from a **5400
+baseline to 7356.87**. That is an absolute improvement of **1956.87 points**,
+or **36.24%** relative to the baseline. The durable outcome was a disciplined
+optimization loop: hypothesize, compile, falsify, measure and only then promote.
