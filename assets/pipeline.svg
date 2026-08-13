@@ -7,16 +7,18 @@
   </defs>
   <rect width="1200" height="320" rx="24" fill="#0b1728"/>
   <text x="600" y="45" fill="#8fd9e2" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="3" text-anchor="middle">CORRECTNESS FIRST · COST SECOND</text>
-  <g stroke="url(#line)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M225 150H270M460 150H505M695 150H740M930 150H975"/>
-    <path d="m260 140 12 10-12 10M495 140l12 10-12 10M730 140l12 10-12 10M965 140l12 10-12 10"/>
-  </g>
   <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" filter="url(#shadow)">
     <g transform="translate(35 92)"><rect width="190" height="116" rx="18" fill="#10283a" stroke="#2dd4bf" stroke-width="2"/><text x="95" y="50" fill="#fff" font-size="20" font-weight="600">INFER</text><text x="95" y="80" fill="#91b9c7" font-size="15">semantic rule</text></g>
     <g transform="translate(270 92)"><rect width="190" height="116" rx="18" fill="#10283a" stroke="#36c9c6" stroke-width="2"/><text x="95" y="50" fill="#fff" font-size="20" font-weight="600">COMPILE</text><text x="95" y="80" fill="#91b9c7" font-size="15">ONNX candidate</text></g>
     <g transform="translate(505 92)"><rect width="190" height="116" rx="18" fill="#10283a" stroke="#43bfc9" stroke-width="2"/><text x="95" y="50" fill="#fff" font-size="20" font-weight="600">FALSIFY</text><text x="95" y="80" fill="#91b9c7" font-size="15">counterexamples</text></g>
     <g transform="translate(740 92)"><rect width="190" height="116" rx="18" fill="#10283a" stroke="#51b3d1" stroke-width="2"/><text x="95" y="50" fill="#fff" font-size="20" font-weight="600">MEASURE</text><text x="95" y="80" fill="#91b9c7" font-size="15">memory + params</text></g>
     <g transform="translate(975 92)"><rect width="190" height="116" rx="18" fill="#142f47" stroke="#60a5fa" stroke-width="2"/><text x="95" y="50" fill="#fff" font-size="20" font-weight="600">PROMOTE</text><text x="95" y="80" fill="#91b9c7" font-size="15">hash + ZIP audit</text></g>
+  </g>
+  <g stroke="url(#line)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M238 150h19m-7-7 8 7-8 7"/>
+    <path d="M473 150h19m-7-7 8 7-8 7"/>
+    <path d="M708 150h19m-7-7 8 7-8 7"/>
+    <path d="M943 150h19m-7-7 8 7-8 7"/>
   </g>
   <text x="600" y="270" fill="#718fa2" font-family="Segoe UI,Arial,sans-serif" font-size="15" text-anchor="middle">A failed gate returns the candidate to the experiment log, never to the accepted baseline.</text>
 </svg>
